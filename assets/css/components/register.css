@@ -1,0 +1,106 @@
+.section-register {
+  padding-block: 60px;
+}
+
+.section-register .container-register {
+  justify-content: center;
+}
+
+.section-register .subtext {
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.section-register .subtext-display {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  letter-spacing: 0.5px;
+}
+
+.section-register .subtext-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.section-register .subtext-input-title {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+
+.section-register input {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+  width: 100%;
+
+  padding: 16px 24px;
+  border-radius: 5px;
+  border: 1px solid #D1DCC3;
+  outline: none;
+}
+
+.section-register .span-text {
+  color: #b6a891;
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+}
+
+.section-register .wrap-button {
+  width: 100%;
+}
+
+.section-register .wrap-button .btn-primary,
+.section-register .wrap-button .btn-outline {
+  width: 100%;
+}
+
+.section-register .text-line {
+  color: #6e6e6e;
+  font-family: var(--display);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-register .text-line::before,
+.section-register .text-line::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 207px;
+  background-color: #BCBCBC;
+}
+
+.section-register .text-option {
+  text-align: center;
+  width: 100%;
+}

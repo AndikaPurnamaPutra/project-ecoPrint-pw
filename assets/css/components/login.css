@@ -1,0 +1,84 @@
+.section-login {
+  padding-block: 60px;
+}
+
+.section-login .container-login {
+  justify-content: center;
+}
+
+.section-login .subtext {
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.section-login .subtext-display {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  letter-spacing: 0.5px;
+}
+
+.section-login .subtext-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.section-login input {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+  width: 100%;
+
+  padding: 16px 24px;
+  border-radius: 5px;
+  border: 1px solid #D1DCC3;
+  outline: none;
+}
+
+.section-login .span-text {
+  color: #b6a891;
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+}
+
+.section-login .wrap-button {
+  width: 100%;
+}
+
+.section-login .wrap-button .btn-primary,
+.section-login .wrap-button .btn-outline {
+  width: 100%;
+}
+
+.section-login .forget-pass {
+  color: #BB2525;
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.5px;
+  text-align: end;
+  width: 100%;
+}
+
+.section-login .text-option {
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,53 @@
+.section-sustinable {
+  padding-block: 60px;
+}
+
+.section-sustinable .subtext {
+  max-width: 1170px;
+  padding: 64px 70px;
+  background-color: #e9eee2;
+  gap: 60px;
+}
+
+.section-sustinable .subtext-image,
+.wrap {
+  gap: 24px;
+  align-items: center;
+}
+
+.section-sustinable .subtext-image img {
+  max-width: 270px;
+}
+
+.section-sustinable .subtext-text {
+  max-width: 400px;
+  gap: 24px;
+}
+
+.section-sustinable .subtext-text .subtext-text-subtitle {
+  color: #698f3c;
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+
+.section-sustinable .subtext-text .subtext-text-display {
+  color: #887709;
+  font-family: var(--display);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.5px;
+}
+
+.section-sustinable .subtext-text .text-wrap {
+  gap: 12px;
+}
+
+.section-sustinable .subtext-text .text-wrap {
+  gap: 8px;
+}
