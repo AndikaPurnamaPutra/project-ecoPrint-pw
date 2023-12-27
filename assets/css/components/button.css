@@ -49,3 +49,7 @@
   letter-spacing: 0.5px;
   text-decoration: unset !important;
 }
+
+.btn-link-brown {
+  background-color: #CABBA1;
+}

@@ -1,0 +1,74 @@
+.section-teknik {
+  padding-block: 96px;
+}
+
+.section-teknik .container-teknik {
+  flex-direction: column;
+  gap: 64px;
+}
+
+.section-teknik .subtext .subtext-display {
+  color: var(--Primary-Primary-300, #698f3c);
+  text-align: center;
+  font-family: var(--display);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 60px */
+  letter-spacing: 0.5px;
+}
+
+.section-teknik .subtext .subtext-desc {
+  color: var(--Secondary-Secondary-700, #797061);
+  text-align: center;
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+}
+
+.section-teknik .content-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.section-teknik .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section-teknik .card .card-text {
+  padding: 32px;
+  background-color: #e9eee2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.section-teknik .card .card-text-title {
+  color: var(--Primary-Primary-600, #4f6b2d);
+  font-family: var(--display);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  letter-spacing: 0.5px;
+}
+
+.section-teknik .card .card-text-desc {
+  color: var(--Secondary-Secondary-400, #b6a891);
+  font-family: var(--display);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.5px;
+}
+
+.section-teknik .card .btn {
+  align-self: flex-end;
+}

@@ -1,0 +1,87 @@
+.section-katalog {
+  padding-block: 96px;
+}
+
+.section-katalog .container-katalog {
+  flex-direction: column;
+  gap: 62px;
+}
+
+.section-katalog .content-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-katalog .subtext-text-title {
+  color: var(--Warning-Warning-800, #887709);
+  font-family: var(--display);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.5px;
+}
+
+.section-katalog .subtext-text-display {
+  color: var(--Primary-Primary-300, #698f3c);
+  font-family: var(--display);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 60px */
+  letter-spacing: 0.5px;
+  max-width: 970px;
+}
+
+.section-katalog .content-bottom {
+  display: flex;
+  gap: 30px;
+}
+
+.section-katalog .card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section-katalog .card .card-image {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section-katalog .card .card-text {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-katalog .card .card-text-title {
+  color: var(--Primary-Primary-800, #2f401b);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+
+.section-katalog .card .card-text-subtitle {
+  color: var(--Secondary-Secondary-500, #a29681);
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+}
+
+.section-katalog .card .card-text-price {
+  color: var(--Primary-Primary-700, #3f5624);
+  font-family: var(--display);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.5px;
+}

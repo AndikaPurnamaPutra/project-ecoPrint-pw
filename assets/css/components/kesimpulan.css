@@ -1,0 +1,29 @@
+.section-kesimpulan {
+  padding-block: 96px;
+}
+
+.section-kesimpulan .subtext {
+  align-items: center;
+  gap: 40px;
+}
+
+.section-kesimpulan .img-pattern {
+  max-width: 131px;
+}
+.section-kesimpulan .img-pattern:nth-child(1) {
+  align-self: flex-start;
+}
+.section-kesimpulan .img-pattern {
+  align-self: flex-end;
+}
+
+.section-kesimpulan .subtext-display {
+  color: var(--Primary-Primary-300, #698f3c);
+  text-align: center;
+  font-family: var(--display);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 60px */
+  letter-spacing: 0.5px;
+}

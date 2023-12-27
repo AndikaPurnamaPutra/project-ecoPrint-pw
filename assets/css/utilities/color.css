@@ -1,6 +1,7 @@
 :root {
   --primary: #2f401b;
   --secondary: #AF990C;
+  --third: #E1C50F;
 }
 
 .text-primary {
@@ -9,4 +10,8 @@
 
 .text-secondary {
   color: var(--secondary) !important;
+}
+
+.text-third {
+  color: var(--third) !important;
 }
