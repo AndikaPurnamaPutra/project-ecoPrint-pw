@@ -1,0 +1,76 @@
+.section-search {
+  background-color: #d1dcc3;
+  padding-block: 16px;
+}
+
+.section-search .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-search .wrap-desc {
+  display: flex;
+  padding: 10px;
+  padding-right: 24px;
+  align-items: center;
+  gap: 18px;
+  border-radius: 10px;
+  background: #e9eee2;
+}
+
+.section-search .wrap-desc img {
+  max-width: 35px;
+}
+
+.section-search .wrap-desc span {
+  color: #4f6b2d;
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 27px */
+  letter-spacing: 0.5px;
+}
+
+.section-search .wrap-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.section-search .wrap-chart form {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+  background: var(--Primary-Primary-50, #f0f4ec);
+  overflow: hidden;
+}
+
+.section-search .wrap-chart form input {
+  border: unset;
+  color: var(--Primary-Primary-500, #547230);
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+  padding: 17px 0 17px 32px;
+  min-width: 380px;
+}
+
+.section-search .wrap-chart form input:focus {
+  outline: unset;
+}
+
+.section-search .wrap-chart form .btn {
+  background: var(--Primary-Primary-300, #698f3c);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: unset;
+}

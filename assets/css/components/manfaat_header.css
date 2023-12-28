@@ -1,0 +1,53 @@
+.section-manfaat-header {
+  padding-block: 72px;
+}
+
+.section-manfaat-header .content {
+  justify-content: space-between;
+}
+
+.section-manfaat-header .content-left img {
+  max-width: 570px;
+}
+
+.section-manfaat-header .content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-manfaat-header .content-right .subtext-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 570px;
+}
+
+.section-manfaat-header .content-right .subtext-text .subtitle {
+  color: var(--Primary-Primary-300, #698f3c);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+.section-manfaat-header .content-right .subtext-text .desc {
+  color: var(--Warning-Warning-800, #887709);
+  font-family: var(--display);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.5px;
+}
+.section-manfaat-header .content-right .subtext-text .desc {
+  color: var(--Secondary-Secondary-900, #474138);
+  text-align: justify;
+  font-family: var(--display);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.5px;
+}

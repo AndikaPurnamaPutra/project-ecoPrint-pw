@@ -1,0 +1,35 @@
+.section-benefit {
+  padding-block: 42px;
+}
+
+.section-benefit .container {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.section-benefit .item {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  background: var(--Primary-Primary-50, #f0f4ec);
+}
+
+.section-benefit .item img {
+  max-width: 50px;
+}
+
+.section-benefit .item .item-text {
+  color: var(--Primary-Primary-700, #3f5624);
+  font-family: var(--display);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+.section-benefit .item .item-text span {
+  font-weight: 700;
+}

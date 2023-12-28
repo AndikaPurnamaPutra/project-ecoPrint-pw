@@ -1,0 +1,109 @@
+.section-populer {
+  background: linear-gradient(
+    180deg,
+    #eff3d6 0%,
+    rgba(244, 244, 244, 0.65) 43.23%,
+    rgba(224, 224, 224, 0) 100%
+  );
+  padding-top: 160px;
+  padding-bottom: 96px;
+}
+
+.section-populer .content {
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section-populer .content-top .title {
+  color: var(--Primary-Primary-300, #698f3c);
+  font-family: var(--display);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 48px */
+  letter-spacing: 0.5px;
+}
+
+.section-populer .content-bottom {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 15px;
+}
+
+.section-populer .content-bottom .card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+}
+
+.section-populer .content-bottom .card .subtitle {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 15px */
+  letter-spacing: 0.5px;
+}
+
+.section-populer .content-bottom .card .title {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.5px;
+}
+
+.section-populer .card .card-body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.section-populer .card .card-body .rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-populer .card .card-body .rating .wrap-star {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.section-populer .card .card-body .rating .wrap-star img {
+  max-width: 15px;
+}
+.section-populer .card .card-body .rating .wrap-star span {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15px */
+  letter-spacing: 0.5px;
+}
+
+.section-populer .card .card-body .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.section-populer .card .card-body .price .price-text {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,55 @@
+.page-manfaat_teknik .content-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-manfaat_teknik .content-bottom .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.page-manfaat_teknik .content-bottom .item-text::before {
+  content: "";
+  border-radius: 50px;
+  background: var(--Primary-Primary-500, #547230);
+  width: 15px;
+  height: 130px;
+  flex-shrink: 0;
+}
+
+.page-manfaat_teknik .content-bottom .item .item-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.page-manfaat_teknik .content-bottom .item .item-text img {
+  max-width: 370px;
+  border-radius: 10px;
+}
+
+.page-manfaat_teknik .content-bottom .item .item-text ul.item-text-desc {
+  list-style: disc;
+}
+.page-manfaat_teknik .content-bottom .item .item-text ul.item-text-desc li {
+  list-style: disc;
+  color: var(--Secondary-Secondary-400, #b6a891);
+  font-family: var(--display);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.page-manfaat_teknik
+  .content-bottom
+  .item
+  .item-text
+  ul.item-text-desc
+  li
+  span {
+  font-weight: 700;
+}

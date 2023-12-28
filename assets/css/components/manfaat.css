@@ -8,6 +8,14 @@
   align-items: center;
 }
 
+.section-manfaat .content-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
 .section-manfaat .subtext-display {
   color: #698f3c;
   text-align: center;

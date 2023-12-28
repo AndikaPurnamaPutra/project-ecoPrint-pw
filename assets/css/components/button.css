@@ -38,7 +38,7 @@
 .btn-link {
   padding: 8px 16px;
   gap: 4px;
-  background-color: #D1DCC3;
+  background-color: #d1dcc3;
 
   color: #887709;
   font-family: var(--display);
@@ -51,5 +51,18 @@
 }
 
 .btn-link-brown {
-  background-color: #CABBA1;
+  background-color: #cabba1;
+}
+
+.btn-price {
+  display: flex;
+  padding: 3px 10px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  background: var(--Primary-Primary-300, #698f3c);
+
+  img {
+    max-width: 18px;
+  }
 }

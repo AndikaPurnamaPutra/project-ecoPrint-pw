@@ -7,6 +7,14 @@
   gap: 64px;
 }
 
+.section-teknik .content-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
 .section-teknik .subtext .subtext-display {
   color: var(--Primary-Primary-300, #698f3c);
   text-align: center;

@@ -7,11 +7,11 @@ body {
   position: sticky;
   top: 0;
   z-index: 99;
+  background-color: #d1dcc3;
 }
 
 .navbar .container-nav {
   justify-content: space-between;
-  background-color: #d1dcc3;
   padding-block: 24px;
 }
 
