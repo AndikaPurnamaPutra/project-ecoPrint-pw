@@ -1,0 +1,181 @@
+.section-shop-2_kategori {
+  padding-block: 100px;
+}
+
+@media (max-width: 992px) {
+  .section-shop-2_kategori {
+    padding-block: 50px;
+  }
+}
+
+.section-shop-2_kategori .container {
+  align-items: flex-start;
+  gap: 68px;
+}
+
+.section-shop-2_kategori .kategori {
+  display: inline-flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 15px;
+  background: var(--Primary-Primary-50, #f0f4ec);
+}
+
+@media (max-width: 576px) {
+  .section-shop-2_kategori .kategori {
+    max-width: 100%;
+  }
+}
+
+.section-shop-2_kategori .kategori .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.section-shop-2_kategori .kategori .wrap .nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom: 1px solid var(--Primary-Primary-300, #698f3c);
+  transition: all 300ms ease;
+}
+
+.section-shop-2_kategori .kategori .wrap .nav-link:hover {
+  background: var(--Primary-Primary-200, #d1dcc3);
+}
+
+.section-shop-2_kategori .kategori .wrap .nav-link img {
+  max-width: 35px;
+}
+
+.section-shop-2_kategori .kategori .wrap .nav-link .kategori-text {
+  color: var(--Primary-Primary-700, #3f5624);
+  font-family: var(--display);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.5px;
+}
+
+.section-shop-2_kategori .kategori .wrap .nav-link .number {
+  color: var(--Primary-Primary-700, #3f5624);
+  text-align: right;
+  font-family: var(--display);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.5px;
+}
+
+.section-shop-2_kategori .wrapper-card {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 100%;
+  gap: 16px;
+}
+
+@media (max-width: 576px) {
+  .section-shop-2_kategori .wrapper-card {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+.section-shop-2_kategori .card {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 5px;
+  background: var(--Primary-Primary-50, #f0f4ec);
+}
+
+.section-shop-2_kategori .card .subtitle {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 15px */
+  letter-spacing: 0.5px;
+}
+
+.section-shop-2_kategori .card .title {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.5px;
+}
+
+.section-shop-2_kategori .card .card-body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.section-shop-2_kategori .card .card-body .rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-shop-2_kategori .card .card-body .rating .wrap-star {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.section-shop-2_kategori .card .card-body .rating .wrap-star img {
+  max-width: 15px;
+}
+.section-shop-2_kategori .card .card-body .rating .wrap-star span {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15px */
+  letter-spacing: 0.5px;
+}
+
+.section-shop-2_kategori .card .card-body .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.section-shop-2_kategori .card .card-body .price .price-text {
+  color: var(--Primary-Primary-900, #253215);
+  font-family: var(--display);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+}
+.section-shop-2_kategori .card .card-body .price .price-span {
+  color: var(--Primary-Primary-300, #698f3c);
+  font-family: var(--display);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15px */
+  letter-spacing: 0.5px;
+}

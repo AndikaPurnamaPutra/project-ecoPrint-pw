@@ -14,6 +14,13 @@
   align-items: flex-start;
 }
 
+@media (max-width: 992px) {
+  .footer .content-top {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
 .footer .subtext {
   display: flex;
   flex-direction: column;

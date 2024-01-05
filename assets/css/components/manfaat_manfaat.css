@@ -17,3 +17,9 @@
 .page-manfaat_manfaat .items .item img {
   max-width: 125px;
 }
+
+.page-manfaat_manfaat .items .item .item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

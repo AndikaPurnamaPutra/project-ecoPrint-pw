@@ -18,10 +18,28 @@
   letter-spacing: 0.5px;
 }
 
+@media (max-width: 576px) {
+  .section-terlaris .content-top .title {
+    font-size: 26px;
+  }
+}
+
 .section-terlaris .content-bottom {
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 16px;
+}
+
+@media (max-width: 992px) {
+  .section-terlaris .content-bottom {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 576px) {
+  .section-terlaris .content-bottom {
+    grid-template-columns: repeat(1, auto);
+  }
 }
 
 .section-terlaris .content-bottom .item {

@@ -24,6 +24,13 @@
   letter-spacing: 0.5px;
 }
 
+.section-register form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
 .section-register .subtext-input {
   display: flex;
   flex-direction: column;
@@ -53,7 +60,7 @@
 
   padding: 16px 24px;
   border-radius: 5px;
-  border: 1px solid #D1DCC3;
+  border: 1px solid #d1dcc3;
   outline: none;
 }
 
@@ -97,7 +104,7 @@
   display: inline-block;
   height: 1px;
   width: 207px;
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
 }
 
 .section-register .text-option {

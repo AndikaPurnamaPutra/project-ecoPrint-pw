@@ -2,8 +2,15 @@
   padding-block: 72px;
 }
 
+@media (max-width: 992px) {
+  .section-manfaat-header {
+    padding-block: 50px;
+  }
+}
+
 .section-manfaat-header .content {
   justify-content: space-between;
+  gap: 24px;
 }
 
 .section-manfaat-header .content-left img {
@@ -23,6 +30,12 @@
   max-width: 570px;
 }
 
+@media (max-width: 992px) {
+  .section-manfaat-header .content-right .subtext-text {
+    max-width: 100%;
+  }
+}
+
 .section-manfaat-header .content-right .subtext-text .subtitle {
   color: var(--Primary-Primary-300, #698f3c);
   font-family: var(--display);
@@ -32,15 +45,29 @@
   line-height: 150%; /* 27px */
   letter-spacing: 0.5px;
 }
-.section-manfaat-header .content-right .subtext-text .desc {
-  color: var(--Warning-Warning-800, #887709);
+
+.section-manfaat-header .content-right .subtext-text .title {
+  color: var(--Primary-Primary-300, #698f3c);
   font-family: var(--display);
-  font-size: 24px;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 150%; /* 36px */
+  font-weight: 700;
+  line-height: 150%; /* 60px */
   letter-spacing: 0.5px;
 }
+
+@media (max-width: 992px) {
+  .section-manfaat-header .content-right .subtext-text .title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-manfaat-header .content-right .subtext-text .title {
+    font-size: 26px;
+  }
+}
+
 .section-manfaat-header .content-right .subtext-text .desc {
   color: var(--Secondary-Secondary-900, #474138);
   text-align: justify;

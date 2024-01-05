@@ -24,6 +24,12 @@
   letter-spacing: 0.5px;
 }
 
+.section-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
 .section-login .subtext-input {
   display: flex;
   flex-direction: column;

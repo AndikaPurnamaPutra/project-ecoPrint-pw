@@ -2,6 +2,12 @@
   padding-block: 96px;
 }
 
+@media (max-width: 576px) {
+  .section-manfaat {
+    padding-block: 50px;
+  }
+}
+
 .section-manfaat .container-manfaat {
   flex-direction: column;
   justify-content: center;
@@ -28,11 +34,24 @@
   max-width: 1030px;
 }
 
+@media (max-width: 992px) {
+  .section-manfaat .subtext-display {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-manfaat .subtext-display {
+    font-size: 26px;
+    text-align: start;
+  }
+}
+
 .section-manfaat .subtext-desc {
   color: var(--Secondary-Secondary-700, #797061);
   text-align: center;
   font-family: var(--display);
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 21px */
@@ -40,10 +59,28 @@
   max-width: 970px;
 }
 
+@media (max-width: 992px) {
+  .section-manfaat .subtext-desc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-manfaat .subtext-desc {
+    text-align: start;
+  }
+}
+
 .section-manfaat .content-bottom {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+@media (max-width: 576px) {
+  .section-manfaat .content-bottom {
+    gap: 24px;
+  }
 }
 
 .section-manfaat .wrapper {
@@ -57,6 +94,13 @@
   align-items: center;
   gap: 16px;
   width: 570px;
+}
+
+@media (max-width: 576px) {
+  .section-manfaat .item {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .section-manfaat .item .item-number {
@@ -93,4 +137,12 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media (max-width: 576px) {
+  .section-manfaat .btn-link {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
 }

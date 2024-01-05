@@ -2,11 +2,26 @@
   padding-block: 96px;
 }
 
+@media (max-width: 992px) {
+  .section-sustinable {
+    padding-block: 50px;
+  }
+}
+
 .section-sustinable .subtext {
   max-width: 1170px;
   padding: 64px 70px;
   background-color: #e9eee2;
   gap: 60px;
+}
+
+@media (max-width: 576px) {
+  .section-sustinable .subtext {
+    padding: 16px;
+  }
+  .subtext-image {
+    flex-direction: column;
+  }
 }
 
 .section-sustinable .subtext-image,
@@ -24,6 +39,12 @@
   gap: 24px;
 }
 
+@media (max-width: 992px) {
+  .section-sustinable .subtext-text {
+    max-width: 100%;
+  }
+}
+
 .section-sustinable .subtext-text .subtext-text-subtitle {
   color: #698f3c;
   font-family: var(--display);
@@ -34,6 +55,18 @@
   letter-spacing: 0.5px;
 }
 
+@media (max-width: 992px) {
+  .section-sustinable .subtext-text .subtext-text-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-sustinable .subtext-text .subtext-text-subtitle {
+    font-size: 18px;
+  }
+}
+
 .section-sustinable .subtext-text .subtext-text-display {
   color: #887709;
   font-family: var(--display);
@@ -42,6 +75,12 @@
   font-weight: 600;
   line-height: 150%; /* 36px */
   letter-spacing: 0.5px;
+}
+
+@media (max-width: 576px) {
+  .section-sustinable .subtext-text .subtext-text-display {
+    font-size: 22px;
+  }
 }
 
 .section-sustinable .subtext-text .text-wrap {
