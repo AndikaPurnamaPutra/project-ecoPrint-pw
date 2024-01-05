@@ -5,7 +5,7 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 * {
