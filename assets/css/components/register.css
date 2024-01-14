@@ -14,6 +14,12 @@
   gap: 24px;
 }
 
+@media (max-width: 768px) {
+  .section-register .subtext {
+    width: 100%;
+  }
+}
+
 .section-register .subtext-display {
   color: var(--primary);
   font-family: var(--display);

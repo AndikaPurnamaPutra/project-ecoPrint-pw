@@ -1,0 +1,17 @@
+.toko-page  table, th, td {
+  border: 1px solid #000;
+}
+
+.toko-page table {
+  width: 100%;
+}
+
+.toko-page table th, td {
+  text-align: center;
+}
+
+.toko-page th, td {
+  width: 30%;
+  padding: 8px;
+  text-transform: uppercase;
+}

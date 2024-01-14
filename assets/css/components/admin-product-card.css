@@ -1,0 +1,7 @@
+.product-card-page .wrap-btn {
+  gap: 8px;
+}
+
+.product-card-page .card {
+  background: var(--Primary-Primary-50, #f0f4ec);
+}

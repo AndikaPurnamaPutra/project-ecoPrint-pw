@@ -13,6 +13,10 @@
   position: relative;
 }
 
+.navbar .nav-logo img {
+  max-width: 42px;
+}
+
 .navbar .nav-menu {
   display: flex;
   align-items: center;

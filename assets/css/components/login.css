@@ -14,6 +14,12 @@
   gap: 16px;
 }
 
+@media (max-width: 768px) {
+  .section-login .subtext {
+    width: 100%;
+  }
+}
+
 .section-login .subtext-display {
   color: var(--primary);
   font-family: var(--display);
@@ -49,7 +55,7 @@
 
   padding: 16px 24px;
   border-radius: 5px;
-  border: 1px solid #D1DCC3;
+  border: 1px solid #d1dcc3;
   outline: none;
 }
 
@@ -73,7 +79,7 @@
 }
 
 .section-login .forget-pass {
-  color: #BB2525;
+  color: #bb2525;
   font-family: var(--display);
   font-size: 14px;
   font-style: normal;

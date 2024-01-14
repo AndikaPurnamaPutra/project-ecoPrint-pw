@@ -1,0 +1,47 @@
+.section-input-product {
+  padding-block: 100px;
+}
+
+.section-input-product .container {
+  gap: 24px;
+}
+
+.section-input-product .wrap-input-product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-input-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.section-input-product .wrap-input-product label {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+
+.section-input-product .wrap-input-product input {
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+  width: 100%;
+
+  padding: 16px 24px;
+  border-radius: 5px;
+  border: 1px solid #d1dcc3;
+  outline: none;
+}

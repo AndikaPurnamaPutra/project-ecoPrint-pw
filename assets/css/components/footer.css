@@ -21,6 +21,10 @@
   }
 }
 
+.footer .content-top .logo img {
+  max-width: 52px;
+}
+
 .footer .subtext {
   display: flex;
   flex-direction: column;
