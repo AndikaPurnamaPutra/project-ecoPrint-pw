@@ -16,6 +16,10 @@
   letter-spacing: 0.5px;
 }
 
+.section-detail .content {
+  gap: 16px;
+}
+
 .section-detail .content-left img {
   max-width: 429px;
   max-height: 429px;
